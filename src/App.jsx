@@ -75,7 +75,7 @@ function App() {
             </div>
 
           </div>
-          <div className='w-[90%] h-[25vh] bg-[#333333] ml-[5%] mt-16 rounded-xl'></div>
+          <div className='w-[70%] h-[25vh] bg-[#333333] ml-[15%] mt-16 rounded-xl'></div>
         </div>
         <div className='w-full h-[70vh] text-center ' id="Education">
           <h1 className='text-orange-500 text-[50px] font-semibold font-serif mt-16'>Education</h1>
