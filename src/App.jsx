@@ -263,8 +263,11 @@ function App() {
             </div>
             <button className=' w-[10%] h-[3.5vh] bg-orange-500 mt-10 rounded-2xl text-white'>Send</button>
           </div>
-
+          <div className='w-[70%] rounded-2xl ml-[15%] mt-9 h-[4vh] text-center bg-orange-500'>
+<p className='text-white text-xl font-serif font-semibold'>Design By: aaryanmoktan2000@gmail.com</p>
+</div>
         </div>
+      
 
       </div>
 
