@@ -24,23 +24,23 @@ function App() {
         <div className='w-full h-[13vh]'>
           <div className='w-[60%] h-[5vh] bg-slate-100 ml-[20%] z-10 top-10  rounded-2xl  sticky'>
             <ul className='flex justify-center items-center gap-20 text-black '>
-              <li className=' w-14 relative top-2 hover:font-black cursor-pointer hover:font-serif'>
+              <li className=' w-14 relative top-1 hover:font-black cursor-pointer hover:font-serif'>
                 <a href="#home">Home</a>
               </li>
-              <li className=' w-14 relative top-2 hover:font-black cursor-pointer hover:font-serif'>
+              <li className=' w-14 relative top-1 hover:font-black cursor-pointer hover:font-serif'>
                 <a href="#Education">Education</a>
               </li>
-              <li className=' w-14 relative top-2 hover:font-black cursor-pointer hover:font-serif'>
+              <li className=' w-14 relative top-1 hover:font-black cursor-pointer hover:font-serif'>
                 <a href="#Experince"> Experince</a>
               </li>
 
-              <li className='w-14 relative top-2 hover:font-black cursor-pointer hover:font-serif'>
+              <li className='w-14 relative top-1 hover:font-black cursor-pointer hover:font-serif'>
                 <a href="#Skills">Skills</a>
               </li>
-              <li className='w-14  relative top-2 hover:font-black cursor-pointer hover:font-serif'>
+              <li className='w-14  relative top-1 hover:font-black cursor-pointer hover:font-serif'>
                 <a href="#Projects">Projects</a>
               </li>
-              <li className=' w-14 relative top-2 hover:font-black cursor-pointer hover:font-serif'>
+              <li className=' w-14 relative top-1 hover:font-black cursor-pointer hover:font-serif'>
                 <a href="#Contact">Contact </a>
               </li>
             </ul>
@@ -67,11 +67,11 @@ function App() {
         <div className=' mt-[-6%] h-[70vh] flex flex-col text-center'>
           <h1 className='text-[50px] text-orange-500 font-bold font-serif'>About  Me</h1>
           <div className='w-full flex gap-[100px] mt-7 items-center justify-center'>
-            <div className='w-[10%] h-[20vh] bg-[#333333] rounded-xl'><h1 className='mt-5 font-bold font-serif text-5xl text-orange-500'>1+</h1>
-              <p className='font-semibold text-xl text-white font-serif mt-3'>Years<br /> Experince</p></div>
+            <div className='w-[10%] h-[20vh] bg-[#333333] rounded-xl'><h1 className='mt-4 font-bold font-serif text-5xl text-orange-500'>1+</h1>
+              <p className='font-semibold text-xl text-white font-serif mt-2'>Years<br /> Experince</p></div>
             <div className='w-[10%] h-[20vh] bg-[#333333] rounded-xl'>
-              <h1 className='mt-5 font-bold font-serif text-5xl text-orange-500 '>5+</h1>
-              <p className='font-semibold text-xl text-white font-serif mt-3'>Projects<br /> Completed</p>
+              <h1 className='mt-4 font-bold font-serif text-5xl text-orange-500 '>5+</h1>
+              <p className='font-semibold text-xl text-white font-serif mt-2'>Projects<br /> Completed</p>
             </div>
 
           </div>
@@ -83,11 +83,11 @@ function App() {
             <div className='w-[30%] h-[40vh] bg-[#333333] text-white rounded-3xl '>
               <div className='w-full  bg-[#333333] text-white flex rounded-2xl justify-around'>
                 <div className='bg-black text-orange-500 text-center w-[30%] h-[4vh] rounded-3xl mt-10'><p className='mt-0.5 font-serif'>2017-2018</p></div>
-                <div className='bg-white text-black text-center w-[30%] h-[4vh] rounded-3xl mt-10'><p className='mt-1.5 font-serif text-sm font-semibold'>Higher Academy</p></div>
+                <div className='bg-white text-black text-center w-[30%] h-[4vh] rounded-3xl mt-10'><p className='mt-1 font-serif text-sm font-semibold'>Higher Academy</p></div>
               </div>
               <div className='flex ml-10 gap-2 '>
                 <div className='bg-white text-black text-center w-[30%] h-[4vh] rounded-3xl mt-10'><p className='mt-0.5 font-serif font-semibold'>Science</p></div>
-                <div className='bg-white text-black text-center w-[10%]  h-[4vh] rounded-3xl mt-10'><p className='mt-1.5 font-serif text-sm font-semibold'>+2</p></div>
+                <div className='bg-white text-black text-center w-[10%]  h-[4vh] rounded-3xl mt-10'><p className='mt-1 font-serif text-sm font-semibold'>+2</p></div>
               </div>
               <div className='mt-10'>
                 <h1 className='text-2xl font-serif font-semibold'>The Times International College</h1>
@@ -98,11 +98,11 @@ function App() {
             <div className='w-[30%]  bg-[#c0bfbf]  text-black rounded-2xl '>
               <div className='w-full  bg-[#c0bfbf] text-white flex rounded-2xl justify-around'>
                 <div className='bg-black text-orange-500 text-center w-[30%] h-[4vh] rounded-3xl mt-10'><p className='mt-0.5 font-serif'>2018-2022</p></div>
-                <div className='bg-white text-black text-center w-[30%] h-[4vh] rounded-3xl mt-10'><p className='mt-1.5 font-serif text-sm font-semibold'>Graduation</p></div>
+                <div className='bg-white text-black text-center w-[30%] h-[4vh] rounded-3xl mt-10'><p className='mt-1 font-serif text-sm font-semibold'>Graduation</p></div>
               </div>
               <div className='flex ml-10 gap-2 '>
                 <div className='bg-white text-black text-center w-[30%] h-[4vh] rounded-3xl mt-10'><p className='mt-0.5 font-serif font-semibold'>B-Tech</p></div>
-                <div className='bg-white text-black text-center w-[13%]  h-[4vh] rounded-3xl mt-10'><p className='mt-1.5 font-serif text-sm font-semibold'>CSE</p></div>
+                <div className='bg-white text-black text-center w-[13%]  h-[4vh] rounded-3xl mt-10'><p className='mt-1 font-serif text-sm font-semibold'>CSE</p></div>
 
               </div>
               <div className='mt-10'>
@@ -118,20 +118,20 @@ function App() {
         <div className='w-full h-[60vh] text-center mt-5' id="Skills">
           <h1 className='text-4xl text-orange-500 font-serif font-extrabold '>Skills</h1>
           <div className='flex justify-center gap-5 mt-10 items-center'>
-            <div className='w-[10%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><ImHtmlFive2 style={{ fontSize: "30px", marginTop: "1px", color: "red" }} /></p > <p className='mt-1 font-semibold'>HTML</p></div>
-            <div className='w-[10%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaCss3Alt style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-1 font-semibold'>CSS</p></div>
+            <div className='w-fit  pl-7 pr-7 h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><ImHtmlFive2 style={{ fontSize: "20px", marginTop: "5px", color: "red" }} /></p > <p className='mt-1 font-semibold'>HTML</p></div>
+            <div className='w-fit  pl-7 pr-7 h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaCss3Alt style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-1 font-semibold'>CSS</p></div>
           </div>
           <div className='flex justify-center gap-5 mt-10 items-center'>
-            <div className='w-[10%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoJavascript style={{ fontSize: "30px", marginTop: "1px", color: "yellow" }} /></p > <p className='mt-1 font-semibold ml-1'>JAVA-SCRIPT</p></div>
-            <div className='w-[10%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiTailwindcss style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-1 font-semibold ml-1'>Tailwind CSS</p></div>
-            <div className='w-[10%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiTypescript style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-1 font-semibold ml-1'> TYPE-SCRIPT</p></div>
+            <div className='w-fit  pl-2 pr-2 h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoJavascript style={{ fontSize: "20px", marginTop: "5px", color: "yellow" }} /></p > <p className='mt-1 font-semibold ml-1'>JAVA-SCRIPT</p></div>
+            <div className='w-fit  pl-2 pr-2 h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiTailwindcss style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-1 font-semibold ml-1'>Tailwind CSS</p></div>
+            <div className='w-fit  pl-2 pr-2 h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiTypescript style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-1 font-semibold ml-1'> TYPE-SCRIPT</p></div>
 
           </div>
           <div className='flex justify-center gap-5 mt-10 items-center'>
-            <div className='w-[10%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaReact style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-1 font-semibold ml-1'>REACT-JS</p></div>
-            <div className='w-[10%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiExpress style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-1 font-semibold ml-1'>EXPRESS-JS</p></div>
-            <div className='w-[10%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoNodejs style={{ fontSize: "30px", marginTop: "1px", color: "green" }} /></p > <p className='mt-1 font-semibold ml-1'> NODE-JS</p></div>
-            <div className='w-[10%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiMongodb style={{ fontSize: "30px", marginTop: "1px", color: "green" }} /></p > <p className='mt-1 font-semibold ml-1'> MONGODB</p></div>
+            <div className='w-fit  pl-2 pr-2 h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaReact style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-1 font-semibold ml-1'>REACT-JS</p></div>
+            <div className='w-fit  pl-2 pr-2 h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiExpress style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-1 font-semibold ml-1'>EXPRESS-JS</p></div>
+            <div className='w-fit  pl-2 pr-2 h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoNodejs style={{ fontSize: "20px", marginTop: "5px", color: "green" }} /></p > <p className='mt-1 font-semibold ml-1'> NODE-JS</p></div>
+            <div className='w-fit  pl-2 pr-2   h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiMongodb style={{ fontSize: "20px", marginTop: "5px", color: "green" }} /></p > <p className='mt-1 font-semibold ml-1'> MONGODB</p></div>
           </div>
           <div className='flex justify-center gap-5 mt-10 items-center'>
             <div className='w-[10%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p></p > <p className='mt-1 font-semibold ml-1 text-blue-700'>C</p></div>
@@ -193,34 +193,34 @@ function App() {
               <h1 className='text-white text-3xl font-serif font-semibold'>Pos</h1>
               <p className='text-white text-md font-serif font-semibold'>Technology i have used</p>
               <div className='flex w-[100%] flex-wrap gap-2 justify-center mt-3'>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><ImHtmlFive2 style={{ fontSize: "30px", marginTop: "1px", color: "red" }} /></p > <p className='mt-1 font-semibold'>HTML</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaCss3Alt style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-1 font-semibold'>CSS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoJavascript style={{ fontSize: "20px", marginTop: "6px", color: "yellow" }} /></p > <p className='mt-1 '>JAVA-SCRIPT</p></div>
+                <div className='w-fit  pl-4 pr-4 h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><ImHtmlFive2 style={{ fontSize: "30px", marginTop: "1px", color: "red" }} /></p > <p className='mt-0.5  font-semibold'>HTML</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaCss3Alt style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-0.5 font-semibold'>CSS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoJavascript style={{ fontSize: "20px", marginTop: "6px", color: "yellow" }} /></p > <p className='mt-0.5 '>JAVA-SCRIPT</p></div>
 
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaReact style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-1'>REACT-JS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiExpress style={{ fontSize: "20px", marginTop: "6px", color: "blue" }} /></p > <p className='mt-1'>EXPRESS-JS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoNodejs style={{ fontSize: "25px", marginTop: "1px", color: "green" }} /></p > <p className='mt-1 '> NODE-JS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiMongodb style={{ fontSize: "30px", marginTop: "1px", color: "green" }} /></p > <p className='mt-1 '> MONGODB</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaReact style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-0.5'>REACT-JS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiExpress style={{ fontSize: "20px", marginTop: "6px", color: "blue" }} /></p > <p className='mt-0.5'>EXPRESS-JS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoNodejs style={{ fontSize: "25px", marginTop: "1px", color: "green" }} /></p > <p className='mt-0.5 '> NODE-JS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiMongodb style={{ fontSize: "30px", marginTop: "1px", color: "green" }} /></p > <p className='mt-0.5 '> MONGODB</p></div>
               </div>
             </div>
           </div>
 
           <div className='w-[50%] h-[30vh] bg-[#F42626]  flex rounded-xl'>
             <div className='w-[40%] h-[100%]'>
-              <img className='w-[100%] h-[100%] rounded-xl' src={blogimg} />
+              <img className=' h-[100%] rounded-xl' src={blogimg} />
             </div>
             <div className=' w-[60%] h-[100%]'>
               <h1 className='text-white text-3xl font-serif font-semibold'>Blog</h1>
               <p className='text-white text-md font-serif font-semibold'>Technology i have used</p>
               <div className='flex w-[100%] flex-wrap gap-2 justify-center mt-3'>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><ImHtmlFive2 style={{ fontSize: "30px", marginTop: "1px", color: "red" }} /></p > <p className='mt-1 font-semibold'>HTML</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaCss3Alt style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-1 font-semibold'>CSS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoJavascript style={{ fontSize: "20px", marginTop: "6px", color: "yellow" }} /></p > <p className='mt-1 '>JAVA-SCRIPT</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiTailwindcss style={{ fontSize: "20px", marginTop: "6px", color: "blue" }} /></p > <p className='mt-1 '>Tailwind CSS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaReact style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-1'>REACT-JS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiExpress style={{ fontSize: "20px", marginTop: "6px", color: "blue" }} /></p > <p className='mt-1'>EXPRESS-JS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoNodejs style={{ fontSize: "25px", marginTop: "1px", color: "green" }} /></p > <p className='mt-1 '> NODE-JS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiMongodb style={{ fontSize: "30px", marginTop: "1px", color: "green" }} /></p > <p className='mt-1 '> MONGODB</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><ImHtmlFive2 style={{ fontSize: "20px", marginTop: "5px", color: "red" }} /></p > <p className='mt-0.5 font-semibold'>HTML</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaCss3Alt style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-0.5 font-semibold'>CSS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoJavascript style={{ fontSize: "20px", marginTop: "5px", color: "yellow" }} /></p > <p className='mt-0.5 '>JAVA-SCRIPT</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiTailwindcss style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-0.5'>Tailwind CSS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaReact style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-0.5'>REACT-JS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiExpress style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-0.5'>EXPRESS-JS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoNodejs style={{ fontSize: "20px", marginTop: "5px", color: "green" }} /></p > <p className='mt-0.5 '> NODE-JS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiMongodb style={{ fontSize: "20px", marginTop: "5px", color: "green" }} /></p > <p className='mt-0.5 '> MONGODB</p></div>
               </div>
             </div>
           </div>
@@ -233,14 +233,14 @@ function App() {
               <h1 className='text-white text-3xl font-serif font-semibold'>E-commerce</h1>
               <p className='text-white text-md font-serif font-semibold'>Technology i have used</p>
               <div className='flex w-[100%] flex-wrap gap-2 justify-center mt-3'>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><ImHtmlFive2 style={{ fontSize: "30px", marginTop: "1px", color: "red" }} /></p > <p className='mt-1 font-semibold'>HTML</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaCss3Alt style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-1 font-semibold'>CSS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoJavascript style={{ fontSize: "20px", marginTop: "6px", color: "yellow" }} /></p > <p className='mt-1 '>JAVA-SCRIPT</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiTailwindcss style={{ fontSize: "20px", marginTop: "6px", color: "blue" }} /></p > <p className='mt-1 '>Tailwind CSS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaReact style={{ fontSize: "30px", marginTop: "1px", color: "blue" }} /></p > <p className='mt-1'>REACT-JS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiExpress style={{ fontSize: "20px", marginTop: "6px", color: "blue" }} /></p > <p className='mt-1'>EXPRESS-JS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoNodejs style={{ fontSize: "25px", marginTop: "1px", color: "green" }} /></p > <p className='mt-1 '> NODE-JS</p></div>
-                <div className='w-[25%] h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiMongodb style={{ fontSize: "30px", marginTop: "1px", color: "green" }} /></p > <p className='mt-1 '> MONGODB</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><ImHtmlFive2 style={{ fontSize: "20px", marginTop: "5px", color: "red" }} /></p > <p className='mt-0.5 font-semibold'>HTML</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaCss3Alt style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-0.5 font-semibold'>CSS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoJavascript style={{ fontSize: "20px", marginTop: "5px", color: "yellow" }} /></p > <p className='mt-0.5 '>JAVA-SCRIPT</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiTailwindcss style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-0.5 '>Tailwind CSS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><FaReact style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-0.5'>REACT-JS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiExpress style={{ fontSize: "20px", marginTop: "5px", color: "blue" }} /></p > <p className='mt-0.5'>EXPRESS-JS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><IoLogoNodejs style={{ fontSize: "20px", marginTop: "5px", color: "green" }} /></p > <p className='mt-0.5 '> NODE-JS</p></div>
+                <div className='w-fit  pl-4 pr-4  h-[4vh] rounded-xl bg-slate-50 flex text-center justify-center'><p><SiMongodb style={{ fontSize: "20px", marginTop: "5px", color: "green" }} /></p > <p className='mt-0.5 '> MONGODB</p></div>
               </div>
             </div>
           </div>
